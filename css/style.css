@@ -1,0 +1,88 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: monospace;
+}
+
+body {
+  /* background-color: lightblue; */
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+  max-width: 400px;
+  height: auto;
+  border-radius: 5px;
+  border: 10px solid white;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+}
+
+.container {
+  padding: 1rem;
+  width: 75%;
+  min-height: 90vh;
+  text-align: center;
+  background-color: lightblue;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+h1 {
+  margin: 1rem;
+}
+
+h2 {
+  font-size: 5rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+  margin: 2rem;
+}
+
+p {
+  margin: 0.5rem;
+}
+
+input, button {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: none;
+  border-radius: 3px;
+  width: 15rem;
+  height: 3rem;
+  font-size: 1.5rem;
+}
+
+ul {
+  list-style: none;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+ul li {
+  margin: 0 1rem;
+}
